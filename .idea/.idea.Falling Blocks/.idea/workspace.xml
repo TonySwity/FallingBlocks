@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41b42b8b-421d-4f4a-bbec-2cac91ca8bc0" name="Changes" comment="add difficult in Spawner">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingBlock.cs" afterDir="false" />
+    <list default="true" id="41b42b8b-421d-4f4a-bbec-2cac91ca8bc0" name="Changes" comment="del using System">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Falling Blocks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Falling Blocks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FallingBlock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingBlock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,11 @@
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Difficulty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingBlock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scripts/FallingBlock.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scripts/FallingBlock.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -83,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655648199573</updated>
-      <workItem from="1655648223165" duration="10725000" />
+      <workItem from="1655648223165" duration="11705000" />
     </task>
     <task id="LOCAL-00001" summary="sys info">
       <created>1655650197886</created>
@@ -127,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655664226013</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add change speed over time">
+      <created>1655664615737</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655664615737</updated>
+    </task>
+    <task id="LOCAL-00008" summary="del using System">
+      <created>1655664670715</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655664670715</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +175,8 @@
     <MESSAGE value="create FallingBlock, prefabs, folder and create Spawner falling blocks" />
     <MESSAGE value="add OnTriggerEnter@d and Chec Main camera != null" />
     <MESSAGE value="add difficult in Spawner" />
-    <option name="LAST_COMMIT_MESSAGE" value="add difficult in Spawner" />
+    <MESSAGE value="add change speed over time" />
+    <MESSAGE value="del using System" />
+    <option name="LAST_COMMIT_MESSAGE" value="del using System" />
   </component>
 </project>
