@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41b42b8b-421d-4f4a-bbec-2cac91ca8bc0" name="Changes" comment="create FallingBlock, prefabs, folder and create Spawner falling blocks">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Difficulty.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Difficulty.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Falling Blocks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Falling Blocks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
+    <list default="true" id="41b42b8b-421d-4f4a-bbec-2cac91ca8bc0" name="Changes" comment="add difficult in Spawner">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingBlock.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +17,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingBlock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Falling Blocks/Assets/Scripts/Spawner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a9b8fc452a6f4a2dba24640d0133afc0157400/4f/b822052b/Camera.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -85,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655648199573</updated>
-      <workItem from="1655648223165" duration="10366000" />
+      <workItem from="1655648223165" duration="10725000" />
     </task>
     <task id="LOCAL-00001" summary="sys info">
       <created>1655650197886</created>
@@ -115,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655662246503</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add OnTriggerEnter@d and Chec Main camera != null">
+      <created>1655664183999</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655664183999</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add difficult in Spawner">
+      <created>1655664226013</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655664226013</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +154,8 @@
     <MESSAGE value="create player on scene and player movement in display" />
     <MESSAGE value="changed _screenHalfWidthInUnits" />
     <MESSAGE value="create FallingBlock, prefabs, folder and create Spawner falling blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="create FallingBlock, prefabs, folder and create Spawner falling blocks" />
+    <MESSAGE value="add OnTriggerEnter@d and Chec Main camera != null" />
+    <MESSAGE value="add difficult in Spawner" />
+    <option name="LAST_COMMIT_MESSAGE" value="add difficult in Spawner" />
   </component>
 </project>
