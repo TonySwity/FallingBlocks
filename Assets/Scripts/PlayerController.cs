@@ -1,10 +1,13 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float _speed = 7f;
 
     private float _screenHalfWidthInWorldUnits;
+
+    public event UnityAction Died; 
 
     private void Start()
     {
@@ -38,6 +41,7 @@ public class PlayerController : MonoBehaviour
     {
         if (triggerCollider.TryGetComponent(out FallingBlock fallingBlock))
         {
+            Died?.Invoke();
             Destroy(gameObject);
         }
     }
